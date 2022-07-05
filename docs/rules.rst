@@ -57,7 +57,7 @@ Maximum repeating players
 If you want to make more random lineups you can use `set_max_repeating_players` method.
 This method adds constraint that restrict players combinations that used in previous lineup.
 It accepts only one argument: number of maximum repeating players.
-
+ 
 .. code-block:: python
 
     optimizer.set_max_repeating_players(5)
